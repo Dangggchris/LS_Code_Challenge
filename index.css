@@ -7,9 +7,7 @@ body {
 .header {
   background-color: #333;
   color: white;
-  padding-left: 1vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding: .5em 0 .5em .5em;
 }
 
 /* Flex Section */
@@ -19,26 +17,24 @@ body {
   flex-direction: row;
   justify-content: center;
   background-color: #ECECEC;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding: .5em 0 .5em 0;
 }
 
 .pickOfWeek {
-  padding: 1%;
+  padding: .5em;
 }
 
 .browseByPop {
-  padding: 1%;
+  padding: .5em;
   display: flex;
   flex-direction: column;
 }
 
 .genre {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 100%;
-  padding-top: 2vh;
-  padding-bottom: 4vh;
+  padding: 1em 0 2.5em 0;
 }
 
 /* Images */
@@ -56,12 +52,12 @@ body {
   background-color: #333;
   height: 40vh;
   text-align: center;
-  padding-top: 2vh;
+  padding-top: 1em;
 }
 
 .multiple-items {
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   padding: 2vh;
 }
 
@@ -78,5 +74,5 @@ body {
   text-align: center;
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 1vh;
+  padding-top: .5em;
 }
