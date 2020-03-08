@@ -4,7 +4,7 @@ $(document).ready(function() {
   let date = moment(new Date()).add(1,'days').format("YYYY-MM-DD");
 
   // TV Maze API
-  var queryURL = "http://api.tvmaze.com/schedule?country=US&date=" + date; 
+  var queryURL = "https://api.tvmaze.com/schedule?country=US&date=" + date; 
 
   $.ajax({
     url: queryURL,
