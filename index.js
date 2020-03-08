@@ -17,7 +17,7 @@ $(document).ready(function() {
         break;
       }
       else {
-        let img = '<div class="slide"><img src= "' + response[i].show.image.medium + '"width="125px" height="200px"></div>'
+        let img = '<div class="slide"><img src= "' + response[i].show.image.medium + '"width="150px" height="200px"></div>'
         $('.multiple-items').slick('slickAdd', img);
       }
     }
