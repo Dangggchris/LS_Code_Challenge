@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: darkgray;
 }
 
@@ -17,53 +17,55 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-  height: 300px;
-  padding: 10px;
+  flex-direction: row;
+  padding: 20px;
   background-color: #ECECEC;
+  align-items: stretch;
 }
 
 .pickOfWeek {
   width: 50%;
   height: 100%;
+  padding: 10px;
 }
 
 .pickOfWeek img {
   max-width: 100%;
   max-height: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .browseByPop {
   width: 50%;
   height: 100%;
-  background-color: bisque;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.browseByPop img {
+  width: 60%;
 }
 
 .genre {
   width: 100%;
   height: 50%;
   display: flex;
-  flex-direction: row;
-  background-color: red;
 }
 
 .genre > div {
-  background-color: #f1f1f1;
-  width: 25%;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  width: 100%;
+}
+
+.genre > div > img {
+  width: 60%;
 }
 
 .nowPlaying {
   width: 100%;
   height: 50%;
-  display: flex;
-  flex-direction: row;
-  background-color: green;
+}
+
+.nowPlaying img {
+  width: 100%;
 }
 
 .sliderWrapper {
@@ -77,14 +79,6 @@ body {
   font-size: 30px;
 }
 
-#tScheduleHeader1 {
-  font-family: 'Courier New', Courier, monospace;
-}
-
-#tScheduleHeader2 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .multiple-items {
   margin-left: 50px;
   margin-right: 50px;
@@ -94,4 +88,12 @@ body {
 
 .slide {
   border-width: 5px;
+}
+
+.footer {
+  background-color: #FFF;
+  text-align: center;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
