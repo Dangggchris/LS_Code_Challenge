@@ -11,12 +11,13 @@ $(document).ready(function() {
     method: "GET"
   })
   .then(function(response) {
+
     for (let i = 0; i < 24; i++) {
       if (response[i].show.image === null) {
         break;
       }
       else {
-        let img = '<div class="slide"><img src= "' + response[i].show.image.medium + '"></div>'
+        let img = '<div class="slide"><img src= "' + response[i].show.image.medium + '"width="125px" height="200px"></div>'
         $('.multiple-items').slick('slickAdd', img);
       }
     }
@@ -31,7 +32,6 @@ $(document).ready(function() {
       arrows: true
     });
   }
-
   
   slickCarousel();
 })
