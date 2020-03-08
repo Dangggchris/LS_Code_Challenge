@@ -24,8 +24,6 @@ body {
 
 .pickOfWeek {
   padding: 10px;
-  display: flex;
-  flex-direction: column;
 }
 
 .browseByPop {
@@ -36,7 +34,6 @@ body {
 
 .genre {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   height: 100%;
   padding-top: 20px;
@@ -59,8 +56,6 @@ body {
   height: 300px;
   text-align: center;
   padding-top: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .multiple-items {
