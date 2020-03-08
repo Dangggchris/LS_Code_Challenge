@@ -21,10 +21,16 @@ body {
 }
 
 .pickOfWeek {
+  max-width: 100%;
+  max-height: 100%;
   padding: 10px;
   display: flex;
   flex-direction: column;
+}
 
+.pickOfWeek img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .browseByPop {
@@ -35,6 +41,11 @@ body {
   flex-direction: column;
 }
 
+.browseImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .genre {
   display: flex;
   flex-direction: row;
@@ -43,10 +54,15 @@ body {
 
 .genre div {
   display: flex;
-  flex: 4;
+  flex: 1;
   justify-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.genreImage {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .nowPlaying img {
