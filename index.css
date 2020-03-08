@@ -56,3 +56,33 @@ body {
   flex-direction: row;
   background-color: green;
 }
+
+.sliderWrapper {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.sliderWrapper span {
+  color: gold;
+  font-size: 30px;
+}
+
+#tScheduleHeader1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#tScheduleHeader2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.multiple-items {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+
+}
+
+.slider {
+  padding: 10px;
+}
