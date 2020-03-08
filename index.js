@@ -12,6 +12,7 @@ $(document).ready(function() {
   })
   .then(function(response) {
 
+    // Add images to carousel slider
     for (let i = 0; i < 24; i++) {
       if (response[i].show.image === null) {
         break;
@@ -25,12 +26,6 @@ $(document).ready(function() {
 
   // Initialize Carousel
   function slickCarousel () {
-    // $('.multiple-items').slick({
-    //   infinite: true,
-    //   slidesToShow: 6,
-    //   slidesToScroll: 1,
-    //   arrows: true
-    // });
     $('.multiple-items').slick({
       infinite: true,
       speed: 300,
