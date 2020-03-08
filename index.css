@@ -1,10 +1,8 @@
 body {
   margin: 0;
-  /* padding-left: 10%;
-  padding-right: 10%;
-  background-color: darkgray; */
 }
 
+/* Header */
 .header {
   background-color: #333;
   color: white;
@@ -13,6 +11,7 @@ body {
   padding-bottom: 10px;
 }
 
+/* Flex Section */
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -26,11 +25,6 @@ body {
   display: flex;
   flex-direction: column;
 
-}
-
-.pickOfWeek img {
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .browseByPop {
@@ -60,6 +54,7 @@ body {
   height: 100%;
 }
 
+/* Slider */
 .sliderWrapper {
   background-color: #333;
   text-align: center;
@@ -74,7 +69,8 @@ body {
   padding: 20px;
 }
 
-.footer {
+/* Footer */
+footer {
   background-color: #FFF;
   text-align: center;
   color: #333;

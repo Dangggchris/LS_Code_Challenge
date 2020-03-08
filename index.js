@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  // Get tomorrow's date
   let date = moment(new Date()).add(1,'days').format("YYYY-MM-DD");
 
   // TV Maze API
@@ -26,11 +27,11 @@ $(document).ready(function() {
     $('.multiple-items').slick({
       infinite: true,
       slidesToShow: 6,
-      slidesToScroll: 6,
+      slidesToScroll: 1,
       arrows: true
     });
   }
 
+  
   slickCarousel();
-
 })
