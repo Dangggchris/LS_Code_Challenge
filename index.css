@@ -50,7 +50,7 @@ body {
 /* Slider */
 .sliderWrapper {
   background-color: #333;
-  height: 35vh;
+  height: 300px;
   text-align: center;
   padding-top: 1em;
 }
@@ -74,5 +74,5 @@ body {
   text-align: center;
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 1em;
+  padding-top: .5em;
 }
