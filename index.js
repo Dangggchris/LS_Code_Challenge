@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // Get tomorrow's date
-  let date = moment(new Date()).add(1,'days').format("YYYY-MM-DD");
+  const date = moment(new Date()).add(1,'days').format("YYYY-MM-DD");
 
   // TV Maze API
   const queryURL = "https://api.tvmaze.com/schedule?country=US&date=" + date; 
