@@ -13,13 +13,17 @@ $(document).ready(function() {
   .then(function(response) {
 
     // Add images to carousel slider
-    for (let i = 0; i < 24; i++) {
-      if (response[i].show.image === null) {
-        break;
+    let count = 0
+    let totalSlides = 0;
+    while (totalSlides < 24) {
+      if (response[count].show.image === null) {
+        count++;
       }
       else {
-        let img = '<div class="slide"><img src= "' + response[i].show.image.medium + '"width="150px" height="200px"></div>'
+        let img = '<div class="slide"><img src= "' + response[count].show.image.medium + '"width="150px" height="200px"></div>'
         $('.multiple-items').slick('slickAdd', img);
+        count++;
+        totalSlides++;
       }
     }
   })
